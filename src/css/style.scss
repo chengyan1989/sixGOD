@@ -49,3 +49,54 @@ footer {
     left: 0;
     background: green;
 }
+
+.list {
+    width: 100%;
+    height: auto;
+    background: #fff;
+}
+
+.zb-concents {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.zb-concents dl {
+    width: 20%;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+.zb-concents dl dt {
+    width: .38rem;
+    height: .38rem;
+    border-radius: 50%;
+    margin: 7px auto;
+    border: 1px solid rgb(179, 174, 174);
+}
+
+.zb-concents dl:nth-child(odd) dt {
+    background: #f60;
+}
+
+.zb-concents dl:nth-child(even) dt {
+    background: rgb(58, 73, 204);
+}
+
+.zb-concents dl dd {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(119, 111, 111);
+}
+
+.list .logo {
+    width: 100%;
+}
+
+.list .logo img {
+    width: 100%;
+    display: block;
+}
