@@ -100,3 +100,25 @@ footer {
   width: 100%;
   display: block;
 }
+
+.list .logo img ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.list .logo img ul li {
+  flex: 1;
+  text-align: center;
+}
+
+.list .logo img ul li span {
+  display: block;
+  margin-top: 0.02rem;
+}
+
+.list .logo img ul li.show i,
+.list .logo img ul li.show span {
+  color: #f50;
+}
