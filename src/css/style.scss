@@ -108,7 +108,53 @@ header {
 section {
     flex: 1;
     overflow-y: scroll;
-    background: yellow;
+    background: rgb(233, 233, 233);
+}
+
+.info-list li {
+    display: flex;
+    padding: 0.2rem;
+    .info-left {
+        width: 60px;
+        h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 0.18rem;
+            margin: 0.05rem 0;
+            color: rgb(92, 92, 92);
+            font-weight: normal;
+        }
+        h4 {
+            width: 100%;
+            text-align: center;
+            font-size: 0.14rem;
+            color: rgb(92, 92, 92);
+            font-weight: normal;
+            margin: 0 0.05rem 0.05rem 0;
+        }
+        h5 {
+            width: 70%;
+            height: 20px;
+            line-height: 20px;
+            margin: 0 auto;
+            background: rgb(241, 57, 91);
+            color: #fff;
+            border-radius: 10px;
+            text-align: center;
+        }
+    }
+    .info-right {
+        flex: 1;
+        background: #fff;
+        padding: 0.1rem;
+        margin-left: 5px;
+        p {
+            font-size: 0.16rem;
+            height: 20px;
+            line-height: 20px;
+            margin-bottom: 5px;
+        }
+    }
 }
 
 footer {
